@@ -20,4 +20,5 @@ The application allows for users to either select from a pre-determined group of
 ## Link to Deployed Application
 
 <a href="https://github.com/scotwoodland/Burger_Logger"> Link to Application on Github!</a>
+<hr>
 <a href="https://hidden-reef-56017.herokuapp.com/"> Link to Deployed Application on Heroku!</a>
