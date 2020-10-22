@@ -1,12 +1,15 @@
 {
   "name": "Burger_Logger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Burger logger",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engines": { 
+    "node": "^12.18.3",
+    "npm": "^6.14.6"},
   "keywords": [],
   "author": "",
   "license": "ISC",
