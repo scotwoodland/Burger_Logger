@@ -10,6 +10,13 @@ router.get("/", function (req, res) {
     res.redirect("/index");
 });
 
+let server = app.listen();
+
+server.on('clientError', (err, socket) => {
+  console.error(err);
+  socket.end('HTTP/1.1 400 Bad Request\r\n\r\n');
+});
+
 router.get("/index", function (req, res) {
     burger.selectAll(function(data) {
         var hbsObject = { burgers: data };
